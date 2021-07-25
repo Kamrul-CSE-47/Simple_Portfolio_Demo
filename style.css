@@ -1,0 +1,70 @@
+ /* font  */
+ @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+ body {
+     font-family: sans-serif;
+     color: #777777;
+     line-height: 26px;
+ }
+
+ h1 {
+     font-size: 2.5em;
+ }
+
+ * {
+     box-sizing: border-box;
+ }
+
+
+
+ .font_page {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+     justify-content: center;
+ }
+
+ .font_page_text {
+     padding-top: 135px;
+ }
+
+ .peter {
+     color: blue;
+ }
+
+ /* 2nd_page */
+ .second_page {
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+     justify-content: center;
+     align-items: center;
+ }
+
+ /* Experience */
+ .experience {
+     background-color: rgb(238, 251, 255);
+     border-radius: 20px;
+     margin-bottom: 50px;
+ }
+
+ .experience_border {
+     border-left: 1px solid rgba(137, 130, 247, .2);
+ }
+
+ footer {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+ }
+
+
+ @media screen and (max-width: 600px) {
+     .font_page_img img {
+         width: 100%;
+     }
+
+     .font_page {
+         display: grid;
+         grid-template-columns: repeat(1, 1fr);
+         justify-content: center;
+     }
+ }
